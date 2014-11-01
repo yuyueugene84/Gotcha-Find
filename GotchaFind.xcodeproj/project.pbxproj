@@ -18,6 +18,25 @@
 		CB8F72D718E9DE12009F5D2D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F72B618E9DE12009F5D2D /* Cocoa.framework */; };
 		CB8F72DF18E9DE12009F5D2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB8F72DD18E9DE12009F5D2D /* InfoPlist.strings */; };
 		CB8F72E118E9DE12009F5D2D /* GotchaFindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F72E018E9DE12009F5D2D /* GotchaFindTests.m */; };
+		CB8F72EF18EC114C009F5D2D /* RankedPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F72EE18EC114C009F5D2D /* RankedPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB8F72F218EC3613009F5D2D /* RankedPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F72F118EC3613009F5D2D /* RankedPageController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB8F72F518ED9489009F5D2D /* RankedPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F72F418ED9489009F5D2D /* RankedPageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB8F72F918EDAFA9009F5D2D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F72F718EDAFA9009F5D2D /* Quartz.framework */; };
+		CB8F72FA18EDAFA9009F5D2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F72F818EDAFA9009F5D2D /* QuartzCore.framework */; };
+		CB8F72FD18EDC0B6009F5D2D /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F72FC18EDC0B6009F5D2D /* CanvasView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB8F730118EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.02.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8F72FE18EEE3E5009F5D2D /* 螢幕快照 2014-04-04 下午8.53.02.png */; };
+		CB8F730218EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.08.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8F72FF18EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.08.png */; };
+		CB8F730318EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.17.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8F730018EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.17.png */; };
+		CB8F730A18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F730418EFEABB009F5D2D /* libmysqlclient.18.dylib */; };
+		CB8F730B18EFEABB009F5D2D /* libmysqlclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F730518EFEABB009F5D2D /* libmysqlclient.a */; };
+		CB8F730C18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F730618EFEABB009F5D2D /* libmysqlclient.18.dylib */; };
+		CB8F730D18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F730718EFEABB009F5D2D /* libmysqlclient.18.dylib */; };
+		CB8F730E18EFEABB009F5D2D /* libmysqlclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F730818EFEABB009F5D2D /* libmysqlclient.a */; };
+		CB8F730F18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8F730918EFEABB009F5D2D /* libmysqlclient.18.dylib */; };
+		CB8F731418F00B9A009F5D2D /* mbMysqlQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F731318F00B9A009F5D2D /* mbMysqlQuery.m */; };
+		CB8F731718F00BED009F5D2D /* mbMysqlDB.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8F731618F00BED009F5D2D /* mbMysqlDB.m */; };
+		CB8F731B18F1B6EC009F5D2D /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8F731918F1B6EC009F5D2D /* logo1.png */; };
+		CB8F731C18F1B6EC009F5D2D /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8F731A18F1B6EC009F5D2D /* logo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +69,33 @@
 		CB8F72DC18E9DE12009F5D2D /* GotchaFindTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GotchaFindTests-Info.plist"; sourceTree = "<group>"; };
 		CB8F72DE18E9DE12009F5D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB8F72E018E9DE12009F5D2D /* GotchaFindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GotchaFindTests.m; sourceTree = "<group>"; };
+		CB8F72ED18EC114C009F5D2D /* RankedPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RankedPage.h; path = ../RankedPage.h; sourceTree = "<group>"; };
+		CB8F72EE18EC114C009F5D2D /* RankedPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RankedPage.m; path = ../RankedPage.m; sourceTree = "<group>"; };
+		CB8F72F018EC3613009F5D2D /* RankedPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RankedPageController.h; path = ../RankedPageController.h; sourceTree = "<group>"; };
+		CB8F72F118EC3613009F5D2D /* RankedPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RankedPageController.m; path = ../RankedPageController.m; sourceTree = "<group>"; };
+		CB8F72F318ED9489009F5D2D /* RankedPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RankedPageView.h; path = ../RankedPageView.h; sourceTree = "<group>"; };
+		CB8F72F418ED9489009F5D2D /* RankedPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RankedPageView.m; path = ../RankedPageView.m; sourceTree = "<group>"; };
+		CB8F72F718EDAFA9009F5D2D /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		CB8F72F818EDAFA9009F5D2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CB8F72FB18EDC0B6009F5D2D /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CanvasView.h; path = ../CanvasView.h; sourceTree = "<group>"; };
+		CB8F72FC18EDC0B6009F5D2D /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CanvasView.m; path = ../CanvasView.m; sourceTree = "<group>"; };
+		CB8F72FE18EEE3E5009F5D2D /* 螢幕快照 2014-04-04 下午8.53.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "螢幕快照 2014-04-04 下午8.53.02.png"; sourceTree = "<group>"; };
+		CB8F72FF18EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "螢幕快照 2014-04-04 下午8.53.08.png"; sourceTree = "<group>"; };
+		CB8F730018EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "螢幕快照 2014-04-04 下午8.53.17.png"; sourceTree = "<group>"; };
+		CB8F730418EFEABB009F5D2D /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.18.dylib; path = "../../../../../usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib/libmysqlclient.18.dylib"; sourceTree = "<group>"; };
+		CB8F730518EFEABB009F5D2D /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmysqlclient.a; path = "../../../../../usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib/libmysqlclient.a"; sourceTree = "<group>"; };
+		CB8F730618EFEABB009F5D2D /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.18.dylib; path = "../../../../../usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib/libmysqlclient.18.dylib"; sourceTree = "<group>"; };
+		CB8F730718EFEABB009F5D2D /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.18.dylib; path = "../../../../../usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib/libmysqlclient.18.dylib"; sourceTree = "<group>"; };
+		CB8F730818EFEABB009F5D2D /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmysqlclient.a; path = "../../../../../usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib/libmysqlclient.a"; sourceTree = "<group>"; };
+		CB8F730918EFEABB009F5D2D /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.18.dylib; path = "../../../../../usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib/libmysqlclient.18.dylib"; sourceTree = "<group>"; };
+		CB8F731018EFEAF9009F5D2D /* my_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = my_global.h; path = "/usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/include/my_global.h"; sourceTree = "<absolute>"; };
+		CB8F731118EFEAF9009F5D2D /* mysql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mysql.h; path = "/usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/include/mysql.h"; sourceTree = "<absolute>"; };
+		CB8F731218F00B9A009F5D2D /* mbMysqlQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mbMysqlQuery.h; path = ../mbMysqlQuery.h; sourceTree = "<group>"; };
+		CB8F731318F00B9A009F5D2D /* mbMysqlQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mbMysqlQuery.m; path = ../mbMysqlQuery.m; sourceTree = "<group>"; };
+		CB8F731518F00BED009F5D2D /* mbMysqlDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mbMysqlDB.h; path = ../mbMysqlDB.h; sourceTree = "<group>"; };
+		CB8F731618F00BED009F5D2D /* mbMysqlDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mbMysqlDB.m; path = ../mbMysqlDB.m; sourceTree = "<group>"; };
+		CB8F731918F1B6EC009F5D2D /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		CB8F731A18F1B6EC009F5D2D /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +103,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8F730A18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */,
+				CB8F730B18EFEABB009F5D2D /* libmysqlclient.a in Frameworks */,
+				CB8F730C18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */,
+				CB8F730D18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */,
+				CB8F730E18EFEABB009F5D2D /* libmysqlclient.a in Frameworks */,
+				CB8F730F18EFEABB009F5D2D /* libmysqlclient.18.dylib in Frameworks */,
+				CB8F72F918EDAFA9009F5D2D /* Quartz.framework in Frameworks */,
+				CB8F72FA18EDAFA9009F5D2D /* QuartzCore.framework in Frameworks */,
 				CB8F72B718E9DE12009F5D2D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,10 +130,17 @@
 		CB8F72AA18E9DE12009F5D2D = {
 			isa = PBXGroup;
 			children = (
+				CB8F731818F00C48009F5D2D /* MySQL */,
+				CB8F72F618EDAF5F009F5D2D /* CollectionView */,
 				CB8F72BC18E9DE12009F5D2D /* GotchaFind */,
 				CB8F72DA18E9DE12009F5D2D /* GotchaFindTests */,
 				CB8F72B518E9DE12009F5D2D /* Frameworks */,
 				CB8F72B418E9DE12009F5D2D /* Products */,
+				CB8F72FE18EEE3E5009F5D2D /* 螢幕快照 2014-04-04 下午8.53.02.png */,
+				CB8F72FF18EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.08.png */,
+				CB8F730018EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.17.png */,
+				CB8F731918F1B6EC009F5D2D /* logo1.png */,
+				CB8F731A18F1B6EC009F5D2D /* logo2.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +156,14 @@
 		CB8F72B518E9DE12009F5D2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB8F730418EFEABB009F5D2D /* libmysqlclient.18.dylib */,
+				CB8F730518EFEABB009F5D2D /* libmysqlclient.a */,
+				CB8F730618EFEABB009F5D2D /* libmysqlclient.18.dylib */,
+				CB8F730718EFEABB009F5D2D /* libmysqlclient.18.dylib */,
+				CB8F730818EFEABB009F5D2D /* libmysqlclient.a */,
+				CB8F730918EFEABB009F5D2D /* libmysqlclient.18.dylib */,
+				CB8F72F718EDAFA9009F5D2D /* Quartz.framework */,
+				CB8F72F818EDAFA9009F5D2D /* QuartzCore.framework */,
 				CB8F72B618E9DE12009F5D2D /* Cocoa.framework */,
 				CB8F72D518E9DE12009F5D2D /* XCTest.framework */,
 				CB8F72B818E9DE12009F5D2D /* Other Frameworks */,
@@ -115,6 +184,8 @@
 		CB8F72BC18E9DE12009F5D2D /* GotchaFind */ = {
 			isa = PBXGroup;
 			children = (
+				CB8F72FB18EDC0B6009F5D2D /* CanvasView.h */,
+				CB8F72FC18EDC0B6009F5D2D /* CanvasView.m */,
 				CB8F72C818E9DE12009F5D2D /* AppDelegate.h */,
 				CB8F72C918E9DE12009F5D2D /* AppDelegate.m */,
 				CB8F72CB18E9DE12009F5D2D /* MainMenu.xib */,
@@ -152,6 +223,34 @@
 				CB8F72DD18E9DE12009F5D2D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB8F72F618EDAF5F009F5D2D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CB8F72F318ED9489009F5D2D /* RankedPageView.h */,
+				CB8F72F418ED9489009F5D2D /* RankedPageView.m */,
+				CB8F72F018EC3613009F5D2D /* RankedPageController.h */,
+				CB8F72F118EC3613009F5D2D /* RankedPageController.m */,
+				CB8F72ED18EC114C009F5D2D /* RankedPage.h */,
+				CB8F72EE18EC114C009F5D2D /* RankedPage.m */,
+			);
+			name = CollectionView;
+			path = GotchaFind;
+			sourceTree = "<group>";
+		};
+		CB8F731818F00C48009F5D2D /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				CB8F731218F00B9A009F5D2D /* mbMysqlQuery.h */,
+				CB8F731518F00BED009F5D2D /* mbMysqlDB.h */,
+				CB8F731618F00BED009F5D2D /* mbMysqlDB.m */,
+				CB8F731018EFEAF9009F5D2D /* my_global.h */,
+				CB8F731118EFEAF9009F5D2D /* mysql.h */,
+				CB8F731318F00B9A009F5D2D /* mbMysqlQuery.m */,
+			);
+			name = MySQL;
+			path = GotchaFind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +329,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8F730118EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.02.png in Resources */,
+				CB8F730218EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.08.png in Resources */,
 				CB8F72C118E9DE12009F5D2D /* InfoPlist.strings in Resources */,
 				CB8F72CF18E9DE12009F5D2D /* Images.xcassets in Resources */,
+				CB8F731C18F1B6EC009F5D2D /* logo2.png in Resources */,
+				CB8F730318EEE3E6009F5D2D /* 螢幕快照 2014-04-04 下午8.53.17.png in Resources */,
 				CB8F72C718E9DE12009F5D2D /* Credits.rtf in Resources */,
+				CB8F731B18F1B6EC009F5D2D /* logo1.png in Resources */,
 				CB8F72CD18E9DE12009F5D2D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +357,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8F72CA18E9DE12009F5D2D /* AppDelegate.m in Sources */,
+				CB8F731718F00BED009F5D2D /* mbMysqlDB.m in Sources */,
+				CB8F731418F00B9A009F5D2D /* mbMysqlQuery.m in Sources */,
+				CB8F72F218EC3613009F5D2D /* RankedPageController.m in Sources */,
+				CB8F72FD18EDC0B6009F5D2D /* CanvasView.m in Sources */,
+				CB8F72EF18EC114C009F5D2D /* RankedPage.m in Sources */,
 				CB8F72C318E9DE12009F5D2D /* main.m in Sources */,
+				CB8F72F518ED9489009F5D2D /* RankedPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +496,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GotchaFind/GotchaFind-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/include/",
+				);
 				INFOPLIST_FILE = "GotchaFind/GotchaFind-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -399,7 +518,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GotchaFind/GotchaFind-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/include/",
+				);
 				INFOPLIST_FILE = "GotchaFind/GotchaFind-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/mysql-connector-c-6.1.3-osx10.7-x86_64/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
