@@ -10,6 +10,6 @@ Check out how it works:
 https://www.youtube.com/watch?v=jikMlTSqFIo&list=UUCMFdAMeq1t8v7MCakzR08g
 
 This project is to demonstrate my knowledge in the following areas:
-1. Ability to code in Ojective-C and create Mac OSX app
-2. Computer Vision (For document segmentation)
-2. Machine Learning (For classifying)
+* Ability to code in Ojective-C and create Mac OSX app
+* Computer Vision (For document segmentation)
+* Machine Learning (For classifying)
