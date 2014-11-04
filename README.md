@@ -11,5 +11,5 @@ https://www.youtube.com/watch?v=jikMlTSqFIo&list=UUCMFdAMeq1t8v7MCakzR08g
 
 This project is to demonstrate my knowledge in the following areas:
 * Ability to code in Ojective-C and create Mac OSX app
-* Computer Vision (For document segmentation)
-* Machine Learning (For classifying)
+* Computer Vision (For document segmentation, crop out the parts with content)
+* Machine Learning (For classifying what's inside the content blocks into text, title, image, etc.)
